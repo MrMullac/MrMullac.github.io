@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D1116;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #0D1116;;
+}
+
+nav {
+    padding-top: 1vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+}
+
+nav .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    list-style: none;
+    padding-right: 10vw;
+}
+
+ul li a {
+    color: white;
+    text-align: center;
+    padding-left: 2vw;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.header{
+    height: 70%;
+    width: 100%;
+}
+
+.header h1, h2, h3, p {
+    color: white;
+    font-family: "Poppins";
+}
+
+.header-content{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.header-text {
+    flex: 1;
+	justify-content: center;
+    align-items: center;
+}
+
+.header-text p, h1, h2, h3 {
+    text-align: left;
+    padding-left: 40%;
+    padding-right: 10%;
+}
+
+.header-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.header-text h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header-text p{
+    font-weight: bold;
+}
+
+
+
+
+.header-img {
+    flex: 1;
+	display: flex;
+}
+
+.header-img img {
+    max-width: 110%;
+}
+
+.magicpattern { 
+    width: 100%;
+    height: 70%;
+    
+    background-size: 70vw 70vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: 
+    linear-gradient(to top, rgba(13,17,22,1) 10%, rgba(0,0,0,0) 41%),
+    url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1500 1100%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%221500%22 height=%221100%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h1500v1100H0z%22%2F%3E%3C%2Fmask%3E%3Cpath fill=%22%230D1116%22 d=%22M0 0h1500v1100H0z%22%2F%3E%3Cg style=%22transform-origin:center center%22 stroke=%22%234c4e72%22 stroke-width=%22.3%22 mask=%22url(%23b)%22%3E%3Cpath fill=%22none%22 d=%22M0 0h75v75H0zM75 0h75v75H75zM150 0h75v75h-75zM300 0h75v75h-75zM375 0h75v75h-75zM525 0h75v75h-75zM600 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e721e%22 d=%22M750 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M825 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e722d%22 d=%22M900 0h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7295%22 d=%22M975 0h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1050 0h75v75h-75zM1125 0h75v75h-75zM1200 0h75v75h-75zM1275 0h75v75h-75zM1350 0h75v75h-75zM1425 0h75v75h-75zM0 75h75v75H0zM150 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72c5%22 d=%22M300 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M375 75h75v75h-75zM450 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e726e%22 d=%22M600 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 75h75v75h-75zM825 75h75v75h-75zM900 75h75v75h-75zM975 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e723c%22 d=%22M1050 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1200 75h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7288%22 d=%22M1275 75h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 150h75v75H0z%22%2F%3E%3Cpath fill=%22%234c4e7283%22 d=%22M75 150h75v75H75z%22%2F%3E%3Cpath fill=%22%234c4e728b%22 d=%22M150 150h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M225 150h75v75h-75zM300 150h75v75h-75zM450 150h75v75h-75zM600 150h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7203%22 d=%22M900 150h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7294%22 d=%22M1200 150h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1275 150h75v75h-75zM1350 150h75v75h-75zM1425 150h75v75h-75zM75 225h75v75H75zM375 225h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7286%22 d=%22M450 225h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M525 225h75v75h-75zM600 225h75v75h-75zM675 225h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72fa%22 d=%22M825 225h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M900 225h75v75h-75zM1050 225h75v75h-75zM1275 225h75v75h-75zM1425 225h75v75h-75zM0 300h75v75H0zM75 300h75v75H75zM150 300h75v75h-75zM375 300h75v75h-75zM450 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7251%22 d=%22M525 300h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 300h75v75h-75zM825 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72ec%22 d=%22M900 300h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M975 300h75v75h-75zM1125 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72e1%22 d=%22M1275 300h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e725f%22 d=%22M1425 300h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 375h75v75H0zM75 375h75v75H75z%22%2F%3E%3Cpath fill=%22%234c4e7265%22 d=%22M225 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72b7%22 d=%22M300 375h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M375 375h75v75h-75zM450 375h75v75h-75zM525 375h75v75h-75zM600 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e728f%22 d=%22M675 375h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 375h75v75h-75zM825 375h75v75h-75zM900 375h75v75h-75zM975 375h75v75h-75zM1050 375h75v75h-75zM1200 375h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72a1%22 d=%22M1425 375h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 450h75v75H0zM75 450h75v75H75zM150 450h75v75h-75zM225 450h75v75h-75zM375 450h75v75h-75zM450 450h75v75h-75zM675 450h75v75h-75zM750 450h75v75h-75zM825 450h75v75h-75zM900 450h75v75h-75zM1050 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7232%22 d=%22M1200 450h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1275 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72e3%22 d=%22M1350 450h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1425 450h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7296%22 d=%22M0 525h75v75H0z%22%2F%3E%3Cpath fill=%22%234c4e72c0%22 d=%22M225 525h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7295%22 d=%22M375 525h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72de%22 d=%22M525 525h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7229%22 d=%22M600 525h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 525h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7255%22 d=%22M900 525h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1050 525h75v75h-75zM1125 525h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e725f%22 d=%22M1200 525h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1350 525h75v75h-75zM0 600h75v75H0z%22%2F%3E%3Cpath fill=%22%234c4e727e%22 d=%22M150 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M225 600h75v75h-75zM300 600h75v75h-75zM375 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7232%22 d=%22M450 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7264%22 d=%22M525 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72d9%22 d=%22M600 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7288%22 d=%22M750 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M825 600h75v75h-75zM900 600h75v75h-75zM1050 600h75v75h-75zM1125 600h75v75h-75zM1200 600h75v75h-75zM1350 600h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7211%22 d=%22M1425 600h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 675h75v75H0zM75 675h75v75H75z%22%2F%3E%3Cpath fill=%22%234c4e7264%22 d=%22M150 675h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M300 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72a2%22 d=%22M450 675h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M525 675h75v75h-75zM600 675h75v75h-75zM675 675h75v75h-75zM750 675h75v75h-75zM825 675h75v75h-75zM900 675h75v75h-75zM975 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7262%22 d=%22M1050 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7257%22 d=%22M1125 675h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7266%22 d=%22M1200 675h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1275 675h75v75h-75zM1350 675h75v75h-75zM1425 675h75v75h-75zM75 750h75v75H75zM225 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e725a%22 d=%22M300 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M375 750h75v75h-75zM450 750h75v75h-75zM525 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e728e%22 d=%22M600 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e725f%22 d=%22M675 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 750h75v75h-75zM975 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72dc%22 d=%22M1050 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1125 750h75v75h-75zM1200 750h75v75h-75zM1275 750h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e724e%22 d=%22M1425 750h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 825h75v75H0z%22%2F%3E%3Cpath fill=%22%234c4e7214%22 d=%22M525 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72f5%22 d=%22M600 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M900 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72c7%22 d=%22M975 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72ee%22 d=%22M1050 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1200 825h75v75h-75zM1275 825h75v75h-75zM1350 825h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e721e%22 d=%22M1425 825h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 900h75v75H0zM75 900h75v75H75zM150 900h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e726a%22 d=%22M375 900h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M450 900h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7201%22 d=%22M525 900h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M675 900h75v75h-75zM825 900h75v75h-75zM975 900h75v75h-75zM1050 900h75v75h-75zM1200 900h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7267%22 d=%22M1275 900h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1350 900h75v75h-75zM1425 900h75v75h-75zM150 975h75v75h-75zM225 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7251%22 d=%22M300 975h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M450 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e72d6%22 d=%22M675 975h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M750 975h75v75h-75zM825 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7204%22 d=%22M900 975h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M975 975h75v75h-75zM1125 975h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7213%22 d=%22M1200 975h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 1050h75v75H0zM75 1050h75v75H75z%22%2F%3E%3Cpath fill=%22%234c4e7212%22 d=%22M150 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M300 1050h75v75h-75zM375 1050h75v75h-75zM450 1050h75v75h-75zM525 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e727b%22 d=%22M750 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e7236%22 d=%22M900 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22none%22 d=%22M975 1050h75v75h-75zM1050 1050h75v75h-75zM1200 1050h75v75h-75z%22%2F%3E%3Cpath fill=%22%234c4e728f%22 d=%22M1275 1050h75v75h-75z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%220%22 stop-color=%22%23fff%22%2F%3E%3Cstop offset=%221%22 stop-color=%22%23fff%22 stop-opacity=%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
+ }
+
+.blog-container {
+    color: white;
+    font-family: "Poppins";
+    padding-top: 5vw;
+}
+
+.blog-container h1{
+    text-align: center;
+    padding: 0;
+}
+
+
+.row {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1vw;
+}
+
+.row img{
+    width: 70%;
+    height: 90%;
+    margin-left: 10%;
+    border: 2px solid rgb(54, 175, 64);
+    border-radius: 10%;
+}
+  
+.column {
+    flex-basis: 60%;
+    padding: 10px;
+    height: 10vw;
+}
+
+.column p {
+    font-family: "Poppins";
+    color: gray;
+}
+
+.column a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.smaller-column{
+    flex-basis: 40%;
+}
+  
+
