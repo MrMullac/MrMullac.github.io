@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Callum's Blog - Margin, Padding, Border</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <body>
+    <div id="home" class="navbar">
+      <nav>
+        <div class="logo">Callum's Blog</div>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#about">About Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="blog-header magicpattern">
+      <div class="blog-header-title">
+        <h1> CSS Concept: Difference Between Margin, Padding, Border. </h1>
+      </div>
+    </div>
+
+    <div class="blog-container">
+
+        <div class="blog-content">
+            <h1>What is the difference between Margin, Border, and Padding?</h1>
+
+            <p>To see differences between them lets learn what they are!</p>
+
+            <h3>Margin</h3>
+            <div class="image-container">
+                <img src="../images/boxmodel.PNG">
+            </div>
+
+            <div class="margin-example">
+                <p>This div has a right margin of 100px.</p>
+                <p>This div also has a automatic margin which is why the div is far to the right.</p>
+            </div>
+
+            <p>The CSS Margin is most commmonly used for creating space around any other elements. The margin can be called by the individual sides like: margin-top, margin-bottom, margin-right, margin-left. And all these can be changed with any value. Here's an example of a line of code using Margin: margin: 25px, 10px, 6px, 10px; What this means is the top margin is 25px the right margin is 10px, the bottom margin is 6px and the left margin is 10px. This example shows the same thing but with multiple lines of code: margin-top: 25px; margin-right: 10px; margin-bottom: 5px; margin-left: 20px;</p>
+
+            <h3>Padding</h3>
+
+            <div class="image-container">
+                <img src="../images/boxmodel.PNG">
+            </div>
+
+            <div class="padding-example">
+                <p>This div has a padding of 100px.</p>
+            </div>
+
+            <p>The CSS Padding is most commonly used for creating a space around the div but inside of the divs borders, Padding can be used to create space between the content in the div and the border surrounding the div. Properties that can be changed are the following: padding, padding-left, padding-right, padding-top, padding-bottom. An example of one of these is: padding: 10px 15px 20px 25px; This means that the top padding is 10px, the right padding is 15px, the bottom padding is 20px and the left padding is 25px. This example is the same but with multiple lines of code: margin-top: 10px; margin-right: 15px; margin-bottom: 20px; margin-left: 25px; </p>
+
+            <h3>Border</h3>
+
+            <div class="image-container">
+                <img src="../images/boxmodel.PNG">
+            </div>
+
+            <div class="border-example">
+                <p>This div has a border style of solid.</p>
+                <p>This div has a border width of 10px.</p>
+                <p>This div has a border color of green.</p>
+            </div>
+
+            <p>The CSS Border property is used to make borders hence why its called borders! The border property basically allows you to create a line around the div that makes a border like look around it. The border can have different sizes, colors and looks. You can create a dotted, dashed, solid, double, groove, ridged, inset, outset borders. So there is a lot to play around with. You are able to make basically any border you wish. The code for the div above is as this follows: border-style: solid; border-width: 10px; border-color: green; </p>
+            <br>
+        </div>
+
+    </div>
+  </body>
+</html>
